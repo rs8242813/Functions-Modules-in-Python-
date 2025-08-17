@@ -1,7 +1,7 @@
 import math
 
+n = float(input("Enter a number: "))
 def Maths():
-    n = float(input("Enter a number: "))
     squareroot = math.sqrt(n)
     logbase = math.log(n)
     sine = math.sin(n)  
@@ -10,4 +10,5 @@ def Maths():
     print(f"logarithm: {logbase}")
     print(f"Sine: {sine}")
     
+
 Maths()
